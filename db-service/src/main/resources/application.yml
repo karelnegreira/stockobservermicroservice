@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: db-service
+server:
+  port: 8300
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8302/eureka/
+      registerWithEureka: true
+      fetchRegistry: true
